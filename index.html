@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Datastar RC6 Data Attributes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" />
+    <style>
+      tbody tr:hover td { background-color: rgba(0,0,0,0.04); transition: background-color .15s ease; }
+    </style>
+  </head>
+  <body>
+    <div class="container mx-auto px-4 py-6">
+ 
+      <div class="overflow-x-auto">
+        <table class="table table-zebra text-lg">
+          <tbody>
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-attributes"><span class="font-medium">attr</span>:<span class="italic">name</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-attributes">Sets an element’s attribute value based on an expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-attributes"><span class="font-medium">attr</span><span class="text-gray-600">=</span>&quot;{<span class="italic">attributeName</span>: <span class="italic">expression</span>}&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-attributes">Sets one or more attribute values using a set of key-value pairs that map to the attribute name and expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-bind"><span class="font-medium">bind</span>:<span class="italic">name</span></a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-bind">Creates a new signal and enables two-way binding between it and the element.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-bind"><span class="font-medium">bind</span><span class="text-gray-600">=</span>&quot;<span class="italic">signalName</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-bind">Creates a new signal and enables two-way binding between it and the element.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-class"><span class="font-medium">class</span>:<span class="italic">name</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-class">Adds or removes a class from an element based on an expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-class"><span class="font-medium">class</span><span class="text-gray-600">=</span>&quot;{<span class="italic">className</span>: <span class="italic">expression</span>}&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-class">Adds or removes one or more classes from an element using a set of key-value pairs that map to the class name and expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-computed"><span class="font-medium">computed</span>:<span class="italic">name</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-computed">Creates a signal that is computed based on an expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-computed"><span class="font-medium">computed</span><span class="text-gray-600">=</span>&quot;{<span class="italic">signalName</span>: <span class="italic">expression</span>}&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-computed">Creates one or more signals that are computed based on a set of key-value pairs that map to the signal name and expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-effect"><span class="font-medium">effect</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-effect">Executes an expression on page load and whenever any signals in the expression change.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ignore"><span class="font-medium">ignore</span></a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ignore">Ignores an element and its descendants from being processed.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ignore-morph"><span class="font-medium">ignore-morph</span></a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ignore-morph">Ignores an element when patching an element using the `morph` mode.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-indicator"><span class="font-medium">indicator</span>:<span class="italic">name</span></a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-indicator">Creates a signal to track in-flight backend requests.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-indicator"><span class="font-medium">indicator</span><span class="text-gray-600">=</span>&quot;<span class="italic">signalName</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-indicator">Creates a signal to track in-flight backend requests.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-init"><span class="font-medium">init</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-init">Runs an expression whenever the attribute is initialised.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-json-signals"><span class="font-medium">json-signals</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-json-signals">Sets the text content of an element to a reactive JSON stringified version of signals.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-intersect"><span class="font-medium">on-intersect</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-intersect">Runs an expression on intersection with the viewport.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-interval"><span class="font-medium">on-interval</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-interval">Runs an expression at a regular interval.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-signal-change"><span class="font-medium">on-signal-patch-filter</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-signal-change">Filters which signals to watch when using the `data-on-signal-patch` attribute.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-signal-patch"><span class="font-medium">on-signal-patch</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on-signal-patch">Runs an expression whenever one or more signals are patched.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on"><span class="font-medium">on</span>:click<span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on">Runs an expression whenever the element is clicked.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on"><span class="font-medium">on</span>:keydown<span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on">Runs an expression whenever a key is pressed.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on"><span class="font-medium">on</span>:<span class="italic">name</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-on">Runs an expression whenever an event is triggered on an element.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-preserve-attr"><span class="font-medium">preserve-attr</span><span class="text-gray-600">=</span>&quot;&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-preserve-attr">Preserves the value of an attribute when patching elements using the `morph` mode.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ref"><span class="font-medium">ref</span>:<span class="italic">name</span></a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ref">Creates a signal whose value references an element.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ref"><span class="font-medium">ref</span><span class="text-gray-600">=</span>&quot;<span class="italic">signalName</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-ref">Creates a signal whose value references an element.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-show"><span class="font-medium">show</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-show">Shows or hides an element based on whether an expression evaluates to `true` or `false`.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-signals"><span class="font-medium">signals</span>:<span class="italic">name</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-signals">Merges a signal into the existing signals.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-signals"><span class="font-medium">signals</span><span class="text-gray-600">=</span>&quot;{<span class="italic">signalName</span>: <span class="italic">expression</span>}&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-signals">Merges one or more signals into the existing signals using a set of key-value pairs that map to the signal name and expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-style"><span class="font-medium">style</span>:<span class="italic">name</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-style">Adds or removes an inline CSS style from an element based on an expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-style"><span class="font-medium">style</span><span class="text-gray-600">=</span>&quot;{<span class="italic">styleName</span>: <span class="italic">expression</span>}&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-style">Adds or removes one or more inline CSS styles from an element using a set of key-value pairs that map to the style name and expression.</a></td>
+            </tr>
+            
+
+            <tr class="group transition-colors">
+              <td class="align-top whitespace-pre-wrap py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-text"><span class="font-medium">text</span><span class="text-gray-600">=</span>&quot;<span class="italic">expression</span>&quot;</a></td>
+              <td class="align-top py-1 px-2 group-hover:bg-gray-50"><a class="link no-underline opacity-80 hover:opacity-100 hover:underline" target="_blank" rel="noopener noreferrer" href="https://data-star.dev/reference/attributes#data-text">Sets the text content of an element to the evaluated expression.</a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+
+      <footer class="mt-8 text-sm text-gray-200">Generated on 2025-11-02 20:31 UTC</footer>
+    </div>
+  </body>
+</html>
